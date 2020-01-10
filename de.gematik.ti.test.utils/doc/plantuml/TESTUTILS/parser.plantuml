@@ -1,0 +1,25 @@
+@startuml
+
+
+
+  package de.gematik.ti.utils.parser {
+    class ApduParser {
+        {static} - LOG : Logger
+        - ApduParser()
+        {static} + toCommandApdu()
+        {static} + toCommandApdu()
+        {static} - parse()
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

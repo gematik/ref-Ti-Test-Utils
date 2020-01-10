@@ -1,0 +1,44 @@
+include::config.adoc[]
+
+== Structure
+
+=== Overview
+
+ifndef::useCachePlantuml[]
+
+.TiTestUtils structure
+[plantuml,TESTUTILS/generated/overview,png,caption="{classdia-caption} {counter:class}: ",650]
+----
+include::{plantumldir}/TESTUTILS/overview.plantuml[]
+----
+
+endif::useCachePlantuml[]
+ifdef::useCachePlantuml[]
+
+.TiTestUtils structure
+image::TESTUTILS/generated/overview.png[caption="{classdia-caption} {counter:class}: "]
+
+{empty} +
+
+endif::useCachePlantuml[]
+
+=== ApduParser
+
+This Parser create Apdus-Instances from byte arrays representations.
+ifndef::useCachePlantuml[]
+
+.Parser for Apdu Arrays
+[plantuml,TESTUTILS/generated/apduparser,png,caption="{classdia-caption} {counter:class}: ",650]
+----
+include::{plantumldir}/TESTUTILS/apduparser.plantuml[]
+----
+
+endif::useCachePlantuml[]
+ifdef::useCachePlantuml[]
+
+.Parser for Apdu Arrays
+image::TESTUTILS/generated/apduparser.png[caption="{classdia-caption} {counter:class}: "]
+
+{empty} +
+
+endif::useCachePlantuml[]

@@ -1,0 +1,8 @@
+ifndef::javadoc[]
+include::config.adoc[]
+endif::javadoc[]
+
+== Introduction
+
+This part describes the Ti-Test-Utils functionalities and structure.
+This utils are only for unit testing and not allowed for production execution.
